@@ -1,3 +1,9 @@
+/*
+ * Projekt: Projekt 1 do predmetu PRL - Odd-even trannsposition sort
+ * Autor: Ondřej Bahounek, xbahou00@stud.fit.vutbr.cz
+ * Datum: 6.3.2025
+ */
+
 #include <iostream>
 #include <mpi.h>
 #include <fstream>
@@ -78,6 +84,10 @@ void odd_even_sort(unsigned char* data_point, int rank, int size, MPI_Comm comm)
     }
     return;
 }
+
+//TODO okomentovat
+//TODO mozna zmenit ze misto N iteraci kde se strida odd a even faze na, N/2 iteraci kde se udela vzdy even aji odd
+//Odevzdat 
 
 int main(int argc, char** argv){
 
